@@ -111,36 +111,36 @@ td {
     margin-left: 30px;
 }
 
+.fa-bell {
+    color: lightblue;
+}
+
+.fa-bookmark {
+    color: rgb(197, 44, 44);
+}
+
+.fa-camera {
+    padding: 5px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    background: skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 10px;
+}
+
+.fa-cog {
+    color: grey;
+}
+
 .fa-facebook {
     padding: 5px;
     font-size: 10px;
     width: 20px;
     text-align: center;
     background: #3B5998;
-}
-
-.fa-twitter {
-    padding: 5px;
-    font-size: 10px;
-    width: 20px;
-    text-align: center;
-    background: #55ACEE;
-}
-
-.fa-linkedin {
-    padding: 5px;
-    font-size: 10px;
-    width: 20px;
-    text-align: center;
-    background: #007bb5;
-}
-
-.fa-reddit {
-    padding: 5px;
-    font-size: 10px;
-    width: 20px;
-    text-align: center;
-    background: #ff5700;
 }
 
 .fa-github {
@@ -151,21 +151,38 @@ td {
     background: #171515;
 }
 
-.fa-bell {
-    color: lightblue;
+.fa-linkedin {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    background: #007bb5;
 }
 
-.fa-bookmark {
-    color: rgb(197, 44, 44);
+.fa-plus {
+    font-size: 24px;
 }
 
-.fa-cog {
-    color: grey;
+.fa-reddit {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    background: #ff5700;
 }
 
 .fa-sign-out {
     color: white;
 }
+
+.fa-twitter {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    background: #55ACEE;
+}
+
 
 .fa-user {
     color: black;
@@ -230,9 +247,18 @@ td {
     background-color: #459b81;
 }
 
-.p-discover {
-    font-size: 24px;
+.p-disussion {
+    font-size: 28px;
     margin: 0px;
+}
+
+.profile-preview {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 50px;
 }
 
 .p-sign-in {
@@ -257,7 +283,7 @@ td {
     margin: auto;
     background-color: rgb(71, 68, 68);
     height: 800px;
-    width: 500px;
+    width: 900px;
 }
 
 .social-containers {
@@ -311,10 +337,18 @@ td {
     padding: 20px;
 }
 
+.user-input-rightcon {
+    margin-left: 500px;
+    position: absolute;
+    /* background-color: #006064; */
+    width: 350px;
+    height: 520px;
+}
+
 .userName {
     color: #459b81;
-    font-size: 24px;
-    margin: 10px 0px 0px;
+    font-size: 26px;
+    margin: 10px 10px 0px;
 }
 
 .userPhoto {
