@@ -17,9 +17,9 @@
             <form action="loginAction.php" method="post">
                 <br><br><br><br>
                 <p>Email or Username:</p>
-                <input type="text" class="usrfield" name = "l_userName">
+                <input type="text" class="usrfield" name = "l_userName" Required>
                 <p>Password: </p>
-                <input type="password" class="usrfield" name = "l_password"> <br><br>
+                <input type="password" class="usrfield" name = "l_password" Required> <br><br>
                 <input type="checkbox">
                 <span>Remember Me</span>
                 <span><a class="span-forgot" href="forgotp.php">Forgot Password?</a></span>

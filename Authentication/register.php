@@ -22,27 +22,27 @@
                     </div>
                     <span class="p-gender">Gender:</span>
                     <input type="radio" name="gender"
-                        onchange="document.getElementsByName('r_selectedGender')[0].value = this.value" value="Male">
+                        onchange="document.getElementsByName('r_selectedGender')[0].value = this.value" value="Male" Required>
                     <span>Male</span>
                     <input type="radio" name="gender"
-                        onchange="document.getElementsByName('r_selectedGender')[0].value = this.value" value="Female">
+                        onchange="document.getElementsByName('r_selectedGender')[0].value = this.value" value="Female" Required>
                     <span>Female</span>
                     <input type="hidden" name="r_selectedGender">
                     <p>Phone Number:</p>
-                    <input type="text" name="r_phoneNumber" class="usrfield" style="width: 350px">
+                    <input type="text" name="r_phoneNumber" class="usrfield" style="width: 350px" Required>
                 </div>
                 <p>Full Name:</p>
-                <input type="text" class="usrfield" name="r_fullName">
+                <input type="text" class="usrfield" name="r_fullName" Required>
                 <p>Username:</p>
-                <input type="text" class="usrfield" name="r_userName">
+                <input type="text" class="usrfield" name="r_userName" Required>
                 <p>Email:</p>
-                <input type="email" class="usrfield" name="r_email">
+                <input type="email" class="usrfield" name="r_email" Required>
                 <p>Date of Birth:</p>
-                <input type="text" class="usrfield" name="r_dob">
+                <input type="text" class="usrfield" name="r_dob" Required>
                 <p>Password: </p>
-                <input type="password" class="usrfield" name="r_pass"> <br>
+                <input type="password" class="usrfield" name="r_pass" Required> <br>
                 <p>Confirm Password: </p>
-                <input type="password" class="usrfield" name="r_conPass"> <br>
+                <input type="password" class="usrfield" name="r_conPass" Required> <br>
 
                 <button type="submit" class="submit" name="submit">Register</button>
                 <span>Already Have An Account?</span>

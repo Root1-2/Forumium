@@ -28,6 +28,12 @@ h1 {
     font-size: 400%;
 }
 
+h2 {
+    background-color: #006064;
+    margin: 0px;
+    padding: 20px;
+}
+
 h3 {
     margin: 0px;
     text-align: center;
@@ -86,6 +92,60 @@ td {
     margin-bottom: 0px;
 }
 
+.container-Alltopics {
+    background-color: #2d313e;
+    margin: 10px;
+    height: 50px;
+    width: 98%;
+
+}
+
+.container-createTopic {
+    background-color: #313542;
+    border-radius: 20px;
+    margin: 20px;
+    height: 600px;
+    width: 96%;
+}
+
+.container-discussion {
+    background-color: #2a2f3b;
+    border-radius: 10px;
+    height: 700px;
+    width: 96%;
+    margin: 20px;
+    
+}
+
+.discussion-iconContainer {
+    bottom: 130px;
+    right: 100px;
+    position: absolute;
+
+}
+
+.discussionphoto {
+    width: 400;
+}
+
+.discussion-po {
+    background-color: #006064;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.discussion-topicCategory {
+    color: #007bb5;
+    margin: 20px;
+}
+
+.discussion-topicName {
+    background-color: #006064;
+    margin: 20px;
+    padding: 10px;
+    font-size: 24px;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -131,6 +191,13 @@ td {
     border-top-left-radius: 10px;
 }
 
+.fa-circle-plus {
+    color: #216cdf;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
+
 .fa-cog {
     color: grey;
 }
@@ -159,6 +226,13 @@ td {
     background: #007bb5;
 }
 
+.fa-paperclip {
+    color: #171515;
+    margin-top: 20px;
+    position: absolute;
+    right: 200px;
+}
+
 .fa-plus {
     font-size: 24px;
 }
@@ -182,7 +256,6 @@ td {
     text-align: center;
     background: #55ACEE;
 }
-
 
 .fa-user {
     color: black;
@@ -216,6 +289,11 @@ td {
 .icon-container i {
     font-size: 28px;
 
+}
+
+.imageInput {
+    margin: 20px;
+    color: rgb(16, 122, 126);
 }
 
 /* .left-containers {
@@ -271,6 +349,22 @@ td {
     text-align: center;
 }
 
+.resize {
+    resize: vertical;
+}
+
+.s-topicName {
+    color: #131318;
+    font-size: 22px;
+    margin-left: 30px; 
+}
+
+.s-topicAuthor {
+    color: #131318;
+    font-size: 22px;
+    margin-left: 1000px; 
+}
+
 .sidebar {
     height: 500px;
     width: 400px;
@@ -321,10 +415,24 @@ td {
 }
 
 .topicInputs {
+    border-radius: 5px;
     height: 50px;
     width: 90%;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.178);
+}
+
+.topicauthor {
+    color: #1d9397;
+    position: absolute;
+    right: 250px;
+    margin: 15px;
+}
+
+.topicname {
+    color: #1d9397;
+    position: absolute;
+    margin: 15px;
 }
 
 .usrfield {
