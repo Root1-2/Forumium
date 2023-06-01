@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Create Topic</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58ecfd313b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form action="createTopicAction.php" method="POST">
+        <div class="container-createTopic">
+            <input class="topicInputs" name="topicName" type="text" placeholder="Topic Name">
+            <input class="topicInputs" name="topicCategory" type="text" placeholder="Topic Categories">
+            <textarea class="topicInputs" name="topicDescription" placeholder="Topic Description" cols="5"
+                rows="5"></textarea>
+            <button type="submit" class="submit" name="submit">Post</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
